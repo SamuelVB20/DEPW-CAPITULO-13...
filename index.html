@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel VZB | Página Personal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    img {
+      max-width: 200px;
+    }
+    figure {
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+    }
+    form input, form textarea, form select {
+      margin-bottom: 10px;
+      display: block;
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Samuel VZB</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#galeria">Galería</a>
+      <a href="#lenguajes">Lenguajes</a>
+      <a href="#multimedia">Multimedia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Samuel, apasionado por el desarrollo web, el diseño, y la tecnología. Me encanta aprender nuevas habilidades y experimentar con HTML, CSS, y Git. En mi tiempo libre disfruto los covers de bateria y guitarra electrica</p>
+      <img src="mifoto.PNG" alt="MI foto">
+    </section>
+
+    <section id="galeria">
+      <h2>Galería de imágenes</h2>
+      <figure>
+        <img src="Capture1.PNG" alt="Proyecto 1">
+        <figcaption>Mi Instagram</figcaption>
+      </figure>
+      <figure>
+        <img src="Capture2.PNG" alt="Diseño creativo">
+        <figcaption>Mi tiktok</figcaption>
+      </figure>
+    </section>
+
+    <section id="lenguajes">
+      <h2>Lenguajes de Programación Favoritos</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Sirve para estructurar el contenido de una página web usando etiquetas.</dd>
+        <dt>CSS</dt>
+        <dd>Permite aplicar estilos visuales como colores, fuentes y diseños responsivos.</dd>
+        <dt>JavaScript</dt>
+        <dd>Agrega interactividad y lógica a las páginas web, desde botones hasta validaciones.</dd>
+      </dl>
+    </section>
+
+    <section id="multimedia">
+      <h2>Multimedia favorita 🎧🎬</h2>
+      <audio controls>
+        <source src="CeCe Winans - Holy Forever (Official Music Video).mp3" type="audio/mpeg">
+        Tu navegador no soporta audio.
+      </audio><br><br>
+
+      <video width="320" height="240" controls poster="poster.png">
+        <source src="WhatsApp Video 2025-07-09 at 21.06.38_72f80fe9.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+      </video>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+          <option value="DO">República Dominicana</option>
+          <option value="MX">México</option>
+          <option value="ES">España</option>
+          <option value="US">Estados Unidos</option>
+        </select>
+
+        <input type="submit" value="Enviar mensaje">
+      </form>
+    </section>
+  </main>
+
+    <footer class="footer-text">
+    <p>contacto: <a href="samuelvelasquez1975@gmail.com">samuelvelasquez1975@gmail.com</a>
+    <p>telefono: <a href="Tel: 820-863-3536">📲+829863356</a></p>
+    <p>whatsapp <a href="whatsapp">📲+829863356</a></p>
+    <a href="https://www.instagram.com/samuel_vzb/">instagram</a>
+    <p>© <time datetime="2025-07-09">2025</time> creado por SamuelVB20 | Todos los derechos reselvados</p>
+  </footer>
+</body>
+</html>
